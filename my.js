@@ -2806,7 +2806,7 @@ const yt = ne(
   Rt =
     (ie(["click"]),
     ne(
-      '<span> <a href="https://www.baidu.com" target="_blank" rel="noopener noreferrer" class="lite-badge" id="lite-badge"><span>'
+      '<span> <a href="https://experimental.cloudladder.net.cn/" target="_blank" rel="noopener noreferrer" class="lite-badge" id="lite-badge"><span>由北京尚云数智科技有限公司提供'
     )),
   Ot = "#303235",
   Bt = (e) => {
@@ -2836,7 +2836,7 @@ const yt = ne(
     {
       const r = Rt(),
         s = r.firstChild.nextSibling;
-      r.style.setProperty("font-size", "13px"),
+      r.style.setProperty("font-size", "12px"),
         r.style.setProperty("position", "absolute"),
         r.style.setProperty("bottom", "0"),
         r.style.setProperty("padding", "10px"),
@@ -2845,7 +2845,7 @@ const yt = ne(
         r.style.setProperty("text-align", "center");
       return (
         "function" == typeof t ? he(t, s) : (t = s),
-        s.style.setProperty("font-weight", "bold"),
+        s.style.setProperty("font-weight", "normal"),
         C(
           (t) => {
             var o = e.poweredByTextColor ?? Ot,
